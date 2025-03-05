@@ -1,0 +1,86 @@
+/*google fonts*/
+.delicious-handrawn-regular {
+    font-family: "Delicious Handrawn", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.comic-neue-regular {
+        font-family: "Comic Neue", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+.autour-one-regular {
+        font-family: "Autour One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }      
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    background: skyblue;
+    margin: 5px;
+    padding: 5px;
+}
+h1{
+    font-family: "Autour One";
+    text-align: center;
+}
+.header{
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: royalblue;
+    background: lightblue; 
+    color: royalblue;
+    font-size: 30px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.header > div{
+    width: 600px;
+    margin: auto;
+}
+.box{
+    width: 600px;
+    margin: auto;
+    font-family: Comic Neue;
+    color: royalblue;
+    font-size: xx-large;
+}
+article{
+    border: 2px solid royalblue;
+    background: lightblue;
+    margin-bottom: 6px;
+    border-radius: 20px;
+}
+article>header{
+    padding: 0px 4px;
+}
+.post{
+    overflow: hidden
+}
+.caption{
+    font-family: "Delicious Handrawn";
+    font-size: medium;
+}
+.post > div{
+    width: 50%;
+    float: left;
+}
+.post_date{
+    text-align: right;
+    color: #06b9f0;
+}
+.caption{
+    padding: 0px 4px;
+    text-align: center;
+    font-size: xx-large;
+}
+img{
+    max-width: 80%;
+    padding: 5%;
+}
+span{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: royalblue;
+}
